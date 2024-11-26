@@ -1,7 +1,7 @@
 'use strict'
 
-var numero = prompt("ingrese un nuemro");
-var nuemro2 = prompt("ingrese un nuemro");
+var numero = parseInt(prompt("ingrese un nuemro"));
+var nuemro2 = parseInt(prompt("ingrese un nuemro"));
 
 if(numero > nuemro2){
     console.log("este numero es mayor"+ numero);
